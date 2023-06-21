@@ -1247,7 +1247,7 @@
  *
  *   M204 P    Acceleration
  *   M204 R    Retract Acceleration
- *   M204 T    Travel Acceleration
+ *   M204 T    Travel Acceleration  
  */
 #define DEFAULT_ACCELERATION          1500    // X, Y, Z and E acceleration for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  2000    // E acceleration for retracts
@@ -2592,7 +2592,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
